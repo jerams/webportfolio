@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#jumbotron-aboutme {
+	background-image: url(./images/bgpink.png);
+	height: 80vh;
+	background-size: cover;
+
+}
+
+.jumbotron{
+font-family: 'Leckerli One', cursive;
+color: saddlebrown;
+padding: 0px;
+}
+
+#video-container {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+}
+#main-video {
+	max-width: 100%;
+}
+
+
+
+.overlayText {
+    position:absolute;
+    top:35%;
+    left:13%;
+    z-index:1;
+}
