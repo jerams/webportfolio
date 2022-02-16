@@ -14,12 +14,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
-	<!-- google fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<!-- google fonts 1 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
 
-
+	<!-- Google fonts 2 -->
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
 
 	<!-- internal CSS -->
@@ -38,7 +39,7 @@
 		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">About Me</a>
+		        <a class="nav-link" href="#aboutme">About Me</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Projects</a>
@@ -52,26 +53,69 @@
 
 		<!-- 1st part Jumotron-->
 			<div class="jumbotron" id="video-container">
-				<div class="container">
+				<div>
 					<video id="main-video" loop="true" autoplay="true" preload="true">
 						<source src="./images/video.mp4" type="video/mp4" class="video-fluid">
 					</video>
 					<div class="overlayText">			
 						<h2>Hi, I am Jeremy! </h2>
-						<h4>I'm an engineer and a creative web developer.</h4>	
+						<h3>I'm an engineer and an aspiring web developer.</h3>	
 					</div>	
 				</div>	
 					
 			</div>
 
 
-			<!-- 2nd part jumbotron -->
-			<div class="jumbotron " id="jumbotron-aboutme">
-				<div class="intro p-5">
-						<img src="./images/jerams2.jpeg" class="img-fluid w-25 h-25  rounded-circle">
+			<!-- About me -->
+		<div id="aboutme">	
+			<h2 class="text-center mb-3">About Me</h2>
+			<div class="mx-auto d-block text-center">
+			<img src="./images/jerams2.jpeg" class="img-fluid rounded-circle w-25">
+			<div class="container mt-5">
+				<h5>
+						I'm an Instrument and Controls Engineer by profession, and I'm shifting my career forward into the tech industry. I love spending time coding and encountering new challenges. I’m highly adaptable to new challenges and projects.
+				</h5>
+			</div>	
+			</div>
+		</div>	
+	
+		<!-- School and Experience -->
+		
+		<div class="container mt-5 pt-5">
+			<div class="row">
+				<!-- school -->
+				<div class="col-6">
+					<h4 class="text-center">Education</h4>
+					<ul>
+						<li><strong>Zuitt Philippines Inc.</strong>
+							<p>Web Developer (February 2022 - March 2022)</p>	
+							
+						</li>
+						<li><strong>Far Eastern University - Information Technology</strong>
+							<p>B.S. Electronics Engineering (May 2008 - February 2013)</p>	
+						</li>
+						<li><strong>Arellano University - Pasig</strong>
+							<p> Seconday Education(S.Y. 2004 - S.Y. 2008)</p>	
+						</li>
+					</ul>
+					
+				</div>
+				<!-- expirience -->
+				<div class="col-6">
+					<h4 class="text-center">Work Experience</h4>
+					<ul>
+						<li><strong>Jacobs Engineering</strong>
+							<p> Instrument and Controls Engineer (February 2022 - Present)</p>	
+							
+						</li>
+						<li><strong>Chiyoda Corporation</strong>
+							<p>Instrument and Controls Engineer (August 2013 - February 2022)</p>		
+						</li>
+					</ul>
 					
 				</div>
 			</div>
+		</div>					
 
 
 
