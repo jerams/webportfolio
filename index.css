@@ -1,6 +1,6 @@
 *{
 	padding: 0;
-	margin: 0;
+	margin: 0; 
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
@@ -8,24 +8,32 @@
 body {
 		font-family: 'Itim', cursive;
 	color: saddlebrown;
-
+	background-color:  #E0B9B4;
 }
 
+
+
+#aboutme {
+/*	background-image: url(./images/bg2.jpg);
+	height: 150;
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	color: saddlebrown;
 }
+
 
 #myprojects {
-/*	background-image: url(./images/bg3.jpg);*/
+/*	background-image: url(./images/bgpink.png);
 	height: 100vh;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	color: cadetblue;
-
 
 }
 
 footer {
 	background-image: url(./images/bgpink.png);
-	height: 15vh;
+	height: 20vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -37,6 +45,7 @@ font-family: 'Leckerli One', cursive;
 color: saddlebrown;
 padding: 0px;
 }
+
 h2 {
 font-family: 'Leckerli One', cursive;
 color: saddlebrown;
